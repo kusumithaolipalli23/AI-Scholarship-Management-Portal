@@ -1,0 +1,8 @@
+{
+  "name": "scholarai",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node -e \"const fs=require('fs'); fs.rmSync('dist',{recursive:true,force:true}); fs.cpSync('frontend','dist',{recursive:true});\""
+  }
+}
