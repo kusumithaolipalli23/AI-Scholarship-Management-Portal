@@ -1,0 +1,19 @@
+.env
+**/.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+**/logs/
+*.log
+
+# Uploaded documents
+backend/uploads/*
+!backend/uploads/.gitkeep
